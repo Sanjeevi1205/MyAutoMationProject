@@ -1,0 +1,1844 @@
+May 21, 2025 10:03:20 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 10:03:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:03:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:03:27 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:04:06 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+May 21, 2025 10:04:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:04:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:04:10 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:04:39 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+May 21, 2025 10:04:59 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForEmployeeCreation
+INFO:  actual text Created successfully.
+May 21, 2025 10:05:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:05:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:05:01 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:05:42 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForInviteMail
+INFO:  Actual text Invite Mail Send successfully.
+May 21, 2025 10:05:43 PM stepdefinition.UserManagement employeeLogsInUsingEmailCredentials
+INFO: Fetching Login Credentials from Mail trap...
+May 21, 2025 10:05:46 PM mailtrap.MailTrapAPI extractCredentials
+INFO: ----- EMAIL BODY START -----
+May 21, 2025 10:05:46 PM mailtrap.MailTrapAPI extractCredentials
+INFO: <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>CaseDrive</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 20 !important;
+            background-color: #f0f4f8;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            padding: 0 5px;
+            background-color: #f0f4f8;
+            padding-top: 20px;
+        }
+
+        .content {
+            max-width: 600px;
+            background: white;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+
+        .content-text {
+            font-family: 'Arial', sans-serif;
+            color: #17173a;
+            text-align: left;
+            /* padding: 20px 5px; */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 30px;
+            color: white;
+            background-color: #0033ed;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            color: #555555;
+            font-size: 9pt;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #0033ed;
+            text-decoration: none;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        .footer-address {
+            font-weight: bold;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- Header with logos -->
+            <div>
+                <table style="width: 100%; height: 100px;" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr style="width: 90%; margin: auto;">
+                            <td style="padding: 0; text-align: left; width: 50%;">
+                                <a target="_blank" rel="noopener noreferrer" href="https://lezdotechmed.com/casedrive" rel="noreferrer" target="_blank" style="text-decoration: none;">
+                                    <img border="0" width="150" src="https://backend-casedrive-v2.lezdotechmed.com/images/casedrive_logo.png" alt="CaseDrive Logo">
+                                </a>
+                            </td>
+                            <td style="padding: 0; text-align: right; width: 50%;">
+                                <a target="_blank" rel="noopener noreferrer" href="https://lezdotechmed.com/" rel="noreferrer" target="_blank" style="text-decoration: none;">
+                                    <img border="0" width="120" src="https://backend-casedrive-v2.lezdotechmed.com/images/lezdo_logo.png" alt="LezDo Logo">
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Dynamic Content Area -->
+            <div class="content-text">
+                <p> Hello Kurt Langworth,</p>
+<p><strong>Welcome to CaseDrive!</strong> </p>
+<p>You can now access the specified features. Please log in to CaseDrive using the following username and password provided below. Contact us for assistance if needed.</p>
+
+<p>Email: employee4373@lezdotechmed.com</p>
+<p>Password: nh8ofbj8</p>
+<p style="text-align: center;">
+    <a target="_blank" rel="noopener noreferrer" href="https://testing-accounts.lezdotechmed.com/" target="_blank" style="text-decoration: none; font-family: 'Arial', 'sans-serif'; padding: 0.5em 1.5em; margin-bottom: 1.5em; color: white; background: #0038ff; border: none; border-radius: 5px; font-size: 15px; font-weight: 600;">
+        Log In
+    </a>
+</p>
+            </div>
+
+            <!-- Closing section -->
+            <p style="margin-top: 20px; color: black; font-family: 'Arial', sans-serif; line-height: 1.5em;">
+                Best Regards,<br>
+                <strong style="color: #0033ed;">The CaseDrive Team</strong>
+            </p>
+        </div>
+        <div class="footer">
+            <p>You are receiving this email because you subscribed to CaseDrive, a case management tool powered by LezDo TechMed.</p>
+                        <p class=" footer-address">© LezDo TechMed LLC</p>
+            <p>Deerfield Corporate Center One, 13010 Morris Rd, Suite 650, Alpharetta, GA 30004</p>
+                    </div>
+
+    </div>
+</body>
+
+</html>
+
+May 21, 2025 10:05:46 PM mailtrap.MailTrapAPI extractCredentials
+INFO: ----- EMAIL BODY END -------
+May 21, 2025 10:05:46 PM stepdefinition.UserManagement employeeLogsInUsingEmailCredentials
+INFO: Login URL: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:05:46 PM stepdefinition.UserManagement employeeLogsInUsingEmailCredentials
+INFO: Email: employee4373@lezdotechmed.com
+May 21, 2025 10:05:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:05:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:05:49 PM stepdefinition.UserManagement employeeLogsInUsingEmailCredentials
+INFO: Navigated to Login URL: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:05:50 PM stepdefinition.UserManagement employeeLogsInUsingEmailCredentials
+INFO: Login process completed successfully.
+May 21, 2025 10:06:17 PM stepdefinition.UserManagement employeeLogsInUsingEmailCredentials
+INFO: Final redirected URL: https://testing-admin-casedrive.lezdotechmed.com/admin/dashboard
+May 21, 2025 10:06:17 PM stepdefinition.UserManagement employeeLogsInUsingEmailCredentials
+INFO: Assertion Passed: User is on dashboard.
+May 21, 2025 10:06:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:06:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:06:19 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:06:52 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+May 21, 2025 10:06:52 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 1
+May 21, 2025 10:07:10 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForEmployeeCreation
+INFO:  actual text Created successfully.
+May 21, 2025 10:07:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:07:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:07:12 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:07:39 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+May 21, 2025 10:07:39 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 1
+May 21, 2025 10:08:00 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForEmployeeCreation
+INFO:  actual text Created successfully.
+May 21, 2025 10:08:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:08:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:08:02 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:08:37 PM pompages.AdminSettingsPOM selectUpToFiveEmployees
+INFO: Selected employee 1
+May 21, 2025 10:08:37 PM pompages.AdminSettingsPOM selectUpToFiveEmployees
+INFO: Selected employee 2
+May 21, 2025 10:08:37 PM pompages.AdminSettingsPOM selectUpToFiveEmployees
+INFO: Selected employee 3
+May 21, 2025 10:08:38 PM pompages.AdminSettingsPOM selectUpToFiveEmployees
+INFO: Selected employee 4
+May 21, 2025 10:08:38 PM pompages.AdminSettingsPOM selectUpToFiveEmployees
+INFO: Selected employee 5
+May 21, 2025 10:08:39 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForEmployeeCreation
+INFO:  actual text Created successfully.
+May 21, 2025 10:08:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:08:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:08:41 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:09:25 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:09:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:09:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:09:26 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:10:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:10:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:10:06 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:10:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:10:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:10:53 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:11:40 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForEmployeeDeletion
+INFO:  Actual text Employee deleted successfully
+May 21, 2025 10:11:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:11:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:11:41 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:12:46 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 10:26:59 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 10:27:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:27:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:27:01 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:27:30 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:27:30 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2acc8744d5b283981626186d026fdd9d, findChildElement {value=.//td[@data-index='3'], using=xpath, id=f.317EE99EE72B7744F697F9A4BF0BEC5D.d.D8EAEBF910DC5CB5E5EE83DBE6A29AE4.e.311}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62961/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2acc8744d5b283981626186d026fdd9d
+May 21, 2025 10:27:30 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Standard User, Client Name: Project Staff
+May 21, 2025 10:27:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Task Manager, Client Name: Team Lead
+May 21, 2025 10:27:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Task Manager, Client Name: Team Lead
+May 21, 2025 10:27:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Team Lead
+May 21, 2025 10:27:32 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Task Manager, Client Name: Project Staff
+May 21, 2025 10:27:32 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:33 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:27:33 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2acc8744d5b283981626186d026fdd9d, findChildElement {value=.//td[@data-index='3'], using=xpath, id=f.317EE99EE72B7744F697F9A4BF0BEC5D.d.D8EAEBF910DC5CB5E5EE83DBE6A29AE4.e.311}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62961/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2acc8744d5b283981626186d026fdd9d
+May 21, 2025 10:27:33 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: , Client Name: 
+May 21, 2025 10:27:34 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Standard User, Client Name: Project Staff
+May 21, 2025 10:27:34 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:34 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Task Manager, Client Name: Team Lead
+May 21, 2025 10:27:35 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:35 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Task Manager, Client Name: Team Lead
+May 21, 2025 10:27:35 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:35 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Team Lead
+May 21, 2025 10:27:35 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Task Manager, Client Name: Project Staff
+May 21, 2025 10:27:35 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Project Administrator, Client Name: Project Manager
+May 21, 2025 10:27:37 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 10:37:14 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 10:37:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:37:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:37:16 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:37:46 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:37:46 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20530c397ba4f11464783d63e6e65a78, findChildElement {using=xpath, value=.//td[@data-index='3'], id=f.6BF7DE5EAB92F00D0BEFCBE25198FD8D.d.F794F6A077EAB99B2BFBF20C9F5270C3.e.315}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63454}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63454/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20530c397ba4f11464783d63e6e65a78
+May 21, 2025 10:37:47 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:37:47 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Standard User, Role: Project Staff
+May 21, 2025 10:38:20 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 10:47:20 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 10:47:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:47:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:47:23 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:47:54 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:47:54 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e07b3ea78241f4a9253d5ff4966a5784, findChildElement {value=.//td[@data-index='3'], id=f.C6FDE22A4D02B52ABA15D2C237C217F5.d.B8E2AE87B518AB9490604BD7DCD3FD57.e.321, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63981/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e07b3ea78241f4a9253d5ff4966a5784
+May 21, 2025 10:47:54 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:47:54 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Standard User, Role: Project Staff
+May 21, 2025 10:48:12 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForDetailsUpdate
+INFO:  actual text Employee updated successfully.
+May 21, 2025 10:48:14 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 10:48:34 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 10:48:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:48:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:48:36 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:49:06 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:49:06 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f4209ee67c6769c1349eca9187530ab, findChildElement {using=xpath, value=.//td[@data-index='3'], id=f.34BFFCF0CBEFE7000AEBD6E9AC58B5C7.d.1785A4A1A141D9B8E645A558CEBD9173.e.350}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64089/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f4209ee67c6769c1349eca9187530ab
+May 21, 2025 10:49:06 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 10:49:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:49:08 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:49:08 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f4209ee67c6769c1349eca9187530ab, findChildElement {using=xpath, value=.//td[@data-index='3'], id=f.34BFFCF0CBEFE7000AEBD6E9AC58B5C7.d.1785A4A1A141D9B8E645A558CEBD9173.e.350}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64089/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f4209ee67c6769c1349eca9187530ab
+May 21, 2025 10:49:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 10:49:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 10:49:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 10:49:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 10:49:09 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: Project Manager
+May 21, 2025 10:49:09 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:49:09 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:49:09 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 10:49:09 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 10:49:09 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:49:10 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 10:51:54 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 10:51:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:51:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:51:56 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:52:25 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:52:25 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfc4161f1b7246bfffa5fc8ed09e69ba, findChildElement {using=xpath, value=.//td[@data-index='6'], id=f.B49CE5C19F26D6AD1F5AE12FB24BFA0A.d.2E8286356434456122836F8D2FBD7518.e.262}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64295/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfc4161f1b7246bfffa5fc8ed09e69ba
+May 21, 2025 10:52:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 21, 2025 10:52:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:52:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:52:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:52:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:52:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 21, 2025 10:52:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard
+May 21, 2025 10:52:28 PM stepdefinition.ClientCaseList theClientClicksOnTheDeliverablesMenu
+INFO: Successfully double-clicked the Source File Folder.
+May 21, 2025 10:52:28 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotButtonOfTheFilesAndAssertTheDownloadFunctionality
+INFO: Searching for the file name...
+May 21, 2025 10:52:28 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotButtonOfTheFilesAndAssertTheDownloadFunctionality
+INFO: File name element not found. This order is placed using custom links.
+May 21, 2025 10:52:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:52:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:52:30 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:52:59 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:52:59 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d22e668587e3bf8cd5ad5f63977395f, findChildElement {using=xpath, value=.//td[@data-index='6'], id=f.E5BC871D0CE5F5C973F55D2B8D4C6441.d.76FC8EE2C49024F3D54E4216CEF76362.e.268}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64370/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d22e668587e3bf8cd5ad5f63977395f
+May 21, 2025 10:52:59 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 21, 2025 10:52:59 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:53:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:53:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:53:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:53:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 21, 2025 10:53:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard
+May 21, 2025 10:53:02 PM pompages.CaseCompletionPOM sendMessageWithRetry
+INFO: Message sent successfully: Test: Could you please provide the detailed timeline?
+May 21, 2025 10:53:03 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:40:14Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:39:26Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:38:07Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:37:14Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T11:45:13Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:59Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:51Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:18:16Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:19:42Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:18:19Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:16:29Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:15:28Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:46Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:35Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:15Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:01Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:13:11Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:12:51Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:41:25Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:40:52Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:14.007716900Z)
+May 21, 2025 10:53:16 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Subject not matched yet. Retrying... (1/4)
+May 21, 2025 10:53:19 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:40:14Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:39:26Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:38:07Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:37:14Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T11:45:13Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:59Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:51Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:18:16Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:19:42Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:18:19Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:16:29Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:15:28Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:46Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:35Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:15Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:01Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:13:11Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:12:51Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:41:25Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:40:52Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:29.420952600Z)
+May 21, 2025 10:53:29 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Subject not matched yet. Retrying... (2/4)
+May 21, 2025 10:53:32 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:40:14Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:39:26Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:38:07Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:37:14Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T11:45:13Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:59Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:51Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:18:16Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:19:42Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:18:19Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:16:29Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:15:28Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:46Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:35Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:15Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:01Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:13:11Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:12:51Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:41:25Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:40:52Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:42.982225100Z)
+May 21, 2025 10:53:43 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Subject not matched yet. Retrying... (3/4)
+May 21, 2025 10:53:46 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:40:14Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:39:26Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:38:07Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:37:14Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T11:45:13Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:59Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:51Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:18:16Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:19:42Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:18:19Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:16:29Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:15:28Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:46Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:35Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:15Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:01Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:13:11Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:12:51Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:41:25Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:40:52Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:23:56.563579400Z)
+May 21, 2025 10:53:57 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Subject not matched yet. Retrying... (4/4)
+May 21, 2025 10:54:02 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 10:56:46 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 10:56:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:56:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:56:48 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:57:20 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:57:20 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62d8b8be77a4a1a4ba9bb0b59e4f6c10, findChildElement {using=xpath, id=f.F68444D66B623B1533103B22629F3979.d.6C93F547688C5FA5BD8BD4D98830E750.e.276, value=.//td[@data-index='6']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62d8b8be77a4a1a4ba9bb0b59e4f6c10
+May 21, 2025 10:57:20 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 21, 2025 10:57:20 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:57:20 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:57:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:57:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:57:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 21, 2025 10:57:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard
+May 21, 2025 10:57:23 PM stepdefinition.ClientCaseList theClientClicksOnTheDeliverablesMenu
+INFO: Successfully double-clicked the Source File Folder.
+May 21, 2025 10:57:23 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotButtonOfTheFilesAndAssertTheDownloadFunctionality
+INFO: Searching for the file name...
+May 21, 2025 10:57:23 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotButtonOfTheFilesAndAssertTheDownloadFunctionality
+INFO: File name element not found. This order is placed using custom links.
+May 21, 2025 10:57:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:57:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:57:24 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:57:52 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:57:52 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aade4c831338c4238253236fbea36321, findChildElement {using=xpath, id=f.9D1A3C8F03F07809F0914E544BB24769.d.6D2570FFF652F9D24B28C46A34563E8E.e.271, value=.//td[@data-index='6']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64786}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64786/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aade4c831338c4238253236fbea36321
+May 21, 2025 10:57:52 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 21, 2025 10:57:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:57:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:57:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:57:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 21, 2025 10:57:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 21, 2025 10:57:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard
+May 21, 2025 10:57:55 PM pompages.CaseCompletionPOM sendMessageWithRetry
+INFO: Message sent successfully: Test: Could you please provide the detailed timeline?
+May 21, 2025 10:57:55 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:40:14Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:39:26Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:38:07Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:37:14Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T11:45:13Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:59Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:51Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:18:16Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:19:42Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:18:19Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:16:29Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:15:28Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:46Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:35Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:15Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:01Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:13:11Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:12:51Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:41:25Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:40:52Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:28:05.814084500Z)
+May 21, 2025 10:58:08 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Subject not matched yet. Retrying... (1/4)
+May 21, 2025 10:58:11 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:40:14Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:39:26Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:38:07Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T16:37:14Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T11:45:13Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:59Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:21:51Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T07:18:16Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:19:42Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:18:19Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:16:29Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:15:28Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:46Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:35Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:15Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:14:01Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:13:11Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T06:12:51Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:41:25Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T03:40:52Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:16Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:11Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-21T01:00:10Z (before threshold 2025-05-21T17:28:21.547907700Z)
+May 21, 2025 10:58:22 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Subject not matched yet. Retrying... (2/4)
+May 21, 2025 10:58:29 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 10:58:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 10:58:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 10:58:31 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 10:58:59 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:58:59 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb555ca84ceb3ec2dbe1a908275ddb64, findChildElement {value=.//td[@data-index='3'], id=f.A5335F49C158AB82B30149C3532F8BCA.d.F9942398C9217A3C9568F46D35617C8E.e.308, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64914/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb555ca84ceb3ec2dbe1a908275ddb64
+May 21, 2025 10:58:59 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:58:59 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:59:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:59:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:59:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:59:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:59:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:59:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 10:59:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 10:59:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:59:01 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 10:59:01 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb555ca84ceb3ec2dbe1a908275ddb64, findChildElement {value=.//td[@data-index='3'], id=f.A5335F49C158AB82B30149C3532F8BCA.d.F9942398C9217A3C9568F46D35617C8E.e.308, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64914/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb555ca84ceb3ec2dbe1a908275ddb64
+May 21, 2025 10:59:02 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 10:59:03 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 10:59:04 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 11:02:25 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 11:02:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 11:02:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 11:02:27 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 11:02:57 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 11:02:57 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd4b2c626e64e20a138f9ffe234c298, findChildElement {using=xpath, value=.//td[@data-index='3'], id=f.EF6B4174DD1566C7E076C21A5F0EF2D3.d.F4E9CCAB0F9FBEAC1BC3898F6A5E464C.e.338}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65169/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd4b2c626e64e20a138f9ffe234c298
+May 21, 2025 11:02:57 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:02:58 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:02:58 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:02:58 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:02:58 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:02:58 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:02:58 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:02:59 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 11:02:59 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 11:02:59 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:03:00 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 11:03:00 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd4b2c626e64e20a138f9ffe234c298, findChildElement {using=xpath, value=.//td[@data-index='3'], id=f.EF6B4174DD1566C7E076C21A5F0EF2D3.d.F4E9CCAB0F9FBEAC1BC3898F6A5E464C.e.338}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65169/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd4b2c626e64e20a138f9ffe234c298
+May 21, 2025 11:03:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 11:03:00 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 11:03:01 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: Project Manager
+May 21, 2025 11:03:01 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:03:01 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:03:01 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:03:02 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:03:02 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 11:03:02 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 11:03:02 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:03:05 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 11:05:41 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 11:05:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 11:05:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 11:05:45 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 11:06:22 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 11:06:22 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fde4da6472fd497aa3f4e2ef57273cf0, findChildElement {using=xpath, id=f.E6313041E0D9663B8EF846F4EAF7998A.d.7CFEBEB3578172DE0F7FEC72B0E610EC.e.309, value=.//td[@data-index='3']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65388/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fde4da6472fd497aa3f4e2ef57273cf0
+May 21, 2025 11:06:22 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:22 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:06:22 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:23 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:06:23 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:23 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:06:23 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:23 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 11:06:23 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 11:06:24 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:25 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 11:06:25 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fde4da6472fd497aa3f4e2ef57273cf0, findChildElement {using=xpath, id=f.E6313041E0D9663B8EF846F4EAF7998A.d.7CFEBEB3578172DE0F7FEC72B0E610EC.e.309, value=.//td[@data-index='3']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65388/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fde4da6472fd497aa3f4e2ef57273cf0
+May 21, 2025 11:06:25 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 11:06:26 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:06:26 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:26 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:06:26 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:26 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:06:27 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:27 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 11:06:27 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 11:06:27 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:06:29 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 11:14:27 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 11:14:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 11:14:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 11:14:30 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 11:15:07 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 11:15:07 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7bb4b5c1794865faa8436b1f361a1ba, findChildElement {id=f.B1D00C688761575DF4622604AF6F730A.d.CA11B13742FA3205FF2B724E8A757006.e.314, value=.//td[@data-index='3'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49742/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7bb4b5c1794865faa8436b1f361a1ba
+May 21, 2025 11:15:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:07 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 11:15:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 11:15:08 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:10 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 11:15:10 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7bb4b5c1794865faa8436b1f361a1ba, findChildElement {id=f.B1D00C688761575DF4622604AF6F730A.d.CA11B13742FA3205FF2B724E8A757006.e.314, value=.//td[@data-index='3'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49742/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7bb4b5c1794865faa8436b1f361a1ba
+May 21, 2025 11:15:10 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: , Role: 
+May 21, 2025 11:15:11 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:11 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:11 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:11 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:11 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:11 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:12 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 11:15:12 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 11:15:12 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:12 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 160
+May 21, 2025 11:15:12 PM helper.CaseHelper processRowsForProfileRoleAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='3']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7bb4b5c1794865faa8436b1f361a1ba, findChildElement {id=f.B1D00C688761575DF4622604AF6F730A.d.CA11B13742FA3205FF2B724E8A757006.e.314, value=.//td[@data-index='3'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49742/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7bb4b5c1794865faa8436b1f361a1ba
+May 21, 2025 11:15:12 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:12 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:12 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:13 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:13 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:13 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:13 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:13 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Team Lead
+May 21, 2025 11:15:13 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Project Staff
+May 21, 2025 11:15:13 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:14 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:14 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:14 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:14 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:14 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:15 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:15 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:15 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:15 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:15 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:16 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:16 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:16 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:16 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:16 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:17 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:17 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Task Manager, Role: Team Lead
+May 21, 2025 11:15:17 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Project Administrator, Role: Project Manager
+May 21, 2025 11:15:18 PM helper.CaseHelper processRowsForProfileRoleAction
+INFO: Checking row - Profile: Standard User, Role: Project Staff
+May 21, 2025 11:15:36 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForDetailsUpdate
+INFO:  actual text Employee updated successfully.
+May 21, 2025 11:15:38 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 11:16:06 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 11:16:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 11:16:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 11:16:08 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 11:16:48 PM stepdefinition.UserManagement theAdminShouldSeeASuccessMessageForCompanyCreation
+INFO:  actual text Company created successfully
+May 21, 2025 11:16:51 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 21, 2025 11:18:13 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-21.log
+May 21, 2025 11:18:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 11:18:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 11:18:15 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 21, 2025 11:18:42 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 11
+May 21, 2025 11:18:42 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40ff04ca1c66a930b536e3676d3b0ad8, findChildElement {value=.//td[@data-index='10'], id=f.CEB866DAC71B658C00D213D60A67256D.d.4D22D512173C3B7702CA93016C74FDBA.e.321, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50022}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50022/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40ff04ca1c66a930b536e3676d3b0ad8
+May 21, 2025 11:18:43 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Ready to Deliver, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:43 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:43 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:43 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:44 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:44 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:44 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:44 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:45 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:45 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:51 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 101
+May 21, 2025 11:18:51 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40ff04ca1c66a930b536e3676d3b0ad8, findChildElement {value=.//td[@data-index='10'], id=f.CEB866DAC71B658C00D213D60A67256D.d.4D22D512173C3B7702CA93016C74FDBA.e.321, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50022}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50022/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40ff04ca1c66a930b536e3676d3b0ad8
+May 21, 2025 11:18:52 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Ready to Deliver, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:52 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:52 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:52 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:53 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:54 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:54 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:54 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:54 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Ready to Deliver, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:55 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:55 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:55 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:55 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:56 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:56 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:56 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:56 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:18:57 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:57 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:57 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Test
+May 21, 2025 11:18:58 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 21, 2025 11:18:58 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:58 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:59 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:59 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:59 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:18:59 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:00 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Expedited, Client Name: test211 client
+May 21, 2025 11:19:01 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:01 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:01 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:01 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:02 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:02 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:02 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 21, 2025 11:19:02 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:02 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:03 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 21, 2025 11:19:03 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:03 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:03 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:03 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:04 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:04 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 21, 2025 11:19:04 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:04 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:05 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:05 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:05 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:05 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 21, 2025 11:19:06 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:06 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:06 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:06 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:06 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:07 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:07 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:07 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:07 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:07 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:08 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:08 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:08 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:08 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:08 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:08 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:09 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:09 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:09 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:09 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:09 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:10 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Corrine
+May 21, 2025 11:19:10 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 21, 2025 11:19:10 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 21, 2025 11:19:10 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 21, 2025 11:19:10 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Machelle
+May 21, 2025 11:19:11 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:11 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:11 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:11 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:11 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:11 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:12 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:12 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:12 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:12 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Resume Request, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:13 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:13 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:13 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:13 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:13 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:13 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:14 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:14 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:14 PM helper.CaseHelper getVisibleRows
+INFO: Total rows found: 101
+May 21, 2025 11:19:14 PM helper.CaseHelper processRowsForAction
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40ff04ca1c66a930b536e3676d3b0ad8, findChildElement {value=.//td[@data-index='10'], id=f.CEB866DAC71B658C00D213D60A67256D.d.4D22D512173C3B7702CA93016C74FDBA.e.321, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50022}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50022/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40ff04ca1c66a930b536e3676d3b0ad8
+May 21, 2025 11:19:14 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Ready to Deliver, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:14 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:15 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:15 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:15 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:15 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:16 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:16 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:16 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:16 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:16 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:17 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Ready to Deliver, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:17 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:17 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:17 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:17 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:18 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:18 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:18 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:18 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:19 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:19 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:19 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Test
+May 21, 2025 11:19:19 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 21, 2025 11:19:20 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:20 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:20 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:20 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:20 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:21 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Expedited, Client Name: test211 client
+May 21, 2025 11:19:22 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:22 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test211 client
+May 21, 2025 11:19:22 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:22 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:22 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:22 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:23 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 21, 2025 11:19:23 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:23 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:23 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 21, 2025 11:19:23 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:23 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:23 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:23 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:24 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:24 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 21, 2025 11:19:24 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 21, 2025 11:19:24 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:24 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:24 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 21, 2025 11:19:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:25 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:26 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:27 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:27 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:27 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:27 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:27 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:28 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 21, 2025 11:19:28 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 21, 2025 11:19:28 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:28 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:29 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:29 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Corrine
+May 21, 2025 11:19:29 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 21, 2025 11:19:29 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 21, 2025 11:19:29 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 21, 2025 11:19:29 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Machelle
+May 21, 2025 11:19:29 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:30 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:30 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:30 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:30 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:30 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Canceled, Priority: Expedited, Client Name: test160 client
+May 21, 2025 11:19:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Resume Request, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:31 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:32 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:32 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:32 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:32 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:32 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:32 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: test160 client
+May 21, 2025 11:19:33 PM helper.CaseHelper processRowsForAction
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 21, 2025 11:19:34 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.

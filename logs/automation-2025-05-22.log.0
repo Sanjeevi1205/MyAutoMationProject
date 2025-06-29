@@ -1,0 +1,152 @@
+May 22, 2025 8:05:33 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:05:33 AM baseclass.LibGlobal deleteOldLogFiles
+INFO: Deleted old log file: automation-2025-05-14.log.0
+May 22, 2025 8:05:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:05:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:05:42 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:06:19 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:07:34 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:07:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:07:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:07:36 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:08:20 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:09:30 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:09:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:09:33 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:09:33 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:10:15 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:11:01 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:11:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:11:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:11:03 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:12:04 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:21:03 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:21:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:21:05 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:21:05 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:22:06 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:28:37 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:28:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:28:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:28:40 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:29:33 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:32:02 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:32:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:32:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:32:04 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:32:24 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:39:21 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:39:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:39:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:39:24 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:39:57 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:40:38 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:40:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:40:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:40:40 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:41:09 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:42:36 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:42:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:42:38 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:42:38 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:43:05 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:43:37 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:43:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:43:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:43:40 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:44:12 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:44:48 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:44:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:44:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:44:51 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:45:14 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:46:22 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:46:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:46:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:46:24 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:46:52 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:47:48 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:47:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:47:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:47:50 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:48:16 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 22, 2025 8:49:00 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-22.log
+May 22, 2025 8:49:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 22, 2025 8:49:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 22, 2025 8:49:03 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://dev-accounts.lezdotechmed.com/
+May 22, 2025 8:50:12 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.

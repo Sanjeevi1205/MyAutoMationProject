@@ -1,0 +1,10 @@
+May 24, 2025 8:25:38 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-24.log
+May 24, 2025 8:25:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 24, 2025 8:25:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 24, 2025 8:25:45 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: null
+May 24, 2025 8:25:46 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.

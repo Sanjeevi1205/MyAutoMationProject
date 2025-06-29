@@ -1,0 +1,1557 @@
+May 17, 2025 3:57:19 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-17.log
+May 17, 2025 3:57:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 17, 2025 3:57:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 17, 2025 3:57:24 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 17, 2025 3:57:51 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Detected Status: Open
+May 17, 2025 3:57:51 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Searching for case with Status: Work in Progress, Priority: Standard, Client Name: Benish Test
+May 17, 2025 3:57:51 PM stepdefinition.EstimateandTask getVisibleRows
+INFO: Total rows found: 11
+May 17, 2025 3:57:51 PM stepdefinition.EstimateandTask processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7b7b768bd823ae83d03b8b02fee0783, findChildElement {using=xpath, value=.//td[@data-index='10'], id=f.1C1B357C5A738909E5FCA2E98E92B694.d.ACE99FAD5E3991ECBDE76992AB75E0A0.e.314}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64554/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b7b768bd823ae83d03b8b02fee0783
+May 17, 2025 3:57:51 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 17, 2025 3:57:51 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:51 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:52 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 3:57:52 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:52 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:52 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:52 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:52 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:52 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 3:57:52 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Case not found on current page. Attempting pagination...
+May 17, 2025 3:57:53 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Clicked 'Rows per page' dropdown.
+May 17, 2025 3:57:53 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Set maximum rows per page.
+May 17, 2025 3:57:54 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Rows refreshed after pagination.
+May 17, 2025 3:57:58 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Detected Status after pagination: Open
+May 17, 2025 3:57:58 PM stepdefinition.EstimateandTask getVisibleRows
+INFO: Total rows found: 101
+May 17, 2025 3:57:58 PM stepdefinition.EstimateandTask processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7b7b768bd823ae83d03b8b02fee0783, findChildElement {using=xpath, value=.//td[@data-index='10'], id=f.1C1B357C5A738909E5FCA2E98E92B694.d.ACE99FAD5E3991ECBDE76992AB75E0A0.e.314}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64554/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b7b768bd823ae83d03b8b02fee0783
+May 17, 2025 3:57:58 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 17, 2025 3:57:58 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:58 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:58 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 3:57:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 3:57:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 3:57:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 3:58:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 3:58:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 3:58:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 17, 2025 3:58:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 3:58:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Work in Progress, Priority: Standard, Client Name: Benish Test
+May 17, 2025 3:58:00 PM stepdefinition.EstimateandTask clickThreeDotAction
+INFO: Clicked the three-dot action button for case with Status: Work in Progress, Priority: Standard, Client Name: Benish Test
+May 17, 2025 3:58:02 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Total three-dot buttons found: 6
+May 17, 2025 3:58:02 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 1
+May 17, 2025 3:58:04 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 3:58:05 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 2
+May 17, 2025 3:58:07 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 3:58:07 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+WARNING: Retrying button click at position 3. Attempt 1 due to: StaleElementReferenceException
+May 17, 2025 3:58:08 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 3
+May 17, 2025 3:58:10 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 3:58:10 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+WARNING: Retrying button click at position 4. Attempt 1 due to: StaleElementReferenceException
+May 17, 2025 3:58:11 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 4
+May 17, 2025 3:58:13 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 3:58:13 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+WARNING: Retrying button click at position 5. Attempt 1 due to: StaleElementReferenceException
+May 17, 2025 3:58:14 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 5
+May 17, 2025 3:58:16 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 3:58:16 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+WARNING: Retrying button click at position 6. Attempt 1 due to: StaleElementReferenceException
+May 17, 2025 3:58:17 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 6
+May 17, 2025 3:58:19 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 3:58:19 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Completed processing all 6 tasks.
+May 17, 2025 3:58:19 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Total rows found for estimate hours: 6
+May 17, 2025 3:58:19 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+WARNING: Attempt 1 failed. Retrying... Error: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7b7b768bd823ae83d03b8b02fee0783, getElementText {id=f.1C1B357C5A738909E5FCA2E98E92B694.d.ACE99FAD5E3991ECBDE76992AB75E0A0.e.1654}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64554/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (f7b7b768bd823ae83d03b8b02fee0783)] -> xpath: //tr[@class='MuiTableRow-root css-11t0o3']//td[@data-index='12']]] -> tag name: span]
+Session ID: f7b7b768bd823ae83d03b8b02fee0783
+May 17, 2025 3:58:19 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Total rows found for estimate hours: 6
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+WARNING: Attempt 2 failed. Retrying... Error: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7b7b768bd823ae83d03b8b02fee0783, findChildElements {using=tag name, value=span, id=f.1C1B357C5A738909E5FCA2E98E92B694.d.ACE99FAD5E3991ECBDE76992AB75E0A0.e.1785}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64554/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b7b768bd823ae83d03b8b02fee0783
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Total rows found for estimate hours: 6
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 3:58:20 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Total calculated estimate time: 335:30:00
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Displayed total estimate time digits: 3353000
+May 17, 2025 3:58:21 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted displayed total time: 335:30:00
+May 17, 2025 3:58:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 17, 2025 3:58:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 17, 2025 3:58:22 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 17, 2025 3:59:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 17, 2025 3:59:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 17, 2025 3:59:02 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 17, 2025 3:59:30 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Detected Status: Open
+May 17, 2025 3:59:30 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Searching for case with Status: Delivered, Priority: Standard
+May 17, 2025 3:59:30 PM stepdefinition.ClientCaseList getVisibleRows
+INFO: Total rows found: 11
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f699e3522a18220bf0d33116f123e86, findChildElement {using=xpath, value=.//td[@data-index='6'], id=f.40068E4E9156788D2471F7AC88AD69B7.d.DD3915307119DB6B940D21D504B032B2.e.263}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64681}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64681/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f699e3522a18220bf0d33116f123e86
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 3:59:31 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:32 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 3:59:32 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:32 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Case not found on current page. Attempting pagination...
+May 17, 2025 3:59:32 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Clicked 'Rows per page' dropdown.
+May 17, 2025 3:59:32 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Set maximum rows per page.
+May 17, 2025 3:59:32 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Rows refreshed after pagination.
+May 17, 2025 3:59:34 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Detected Status after pagination: Open
+May 17, 2025 3:59:34 PM stepdefinition.ClientCaseList getVisibleRows
+INFO: Total rows found: 25
+May 17, 2025 3:59:34 PM stepdefinition.ClientCaseList processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f699e3522a18220bf0d33116f123e86, findChildElement {using=xpath, value=.//td[@data-index='6'], id=f.40068E4E9156788D2471F7AC88AD69B7.d.DD3915307119DB6B940D21D504B032B2.e.263}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64681}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64681/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f699e3522a18220bf0d33116f123e86
+May 17, 2025 3:59:34 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:34 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:34 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 3:59:34 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 3:59:34 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 3:59:35 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Expedited
+May 17, 2025 3:59:36 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 3:59:36 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard
+May 17, 2025 3:59:36 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Resume Request, Priority: Standard
+May 17, 2025 3:59:36 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard
+May 17, 2025 3:59:36 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard
+May 17, 2025 3:59:36 PM stepdefinition.ClientCaseList clickThreeDotAction
+INFO: Clicked the three-dot action button for case with Status: Delivered, Priority: Standard
+May 17, 2025 3:59:45 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T10:25:40Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T10:23:52Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T03:07:30Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T03:06:55Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T03:06:30Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:24Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:23Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:23Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:23Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:23Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:22Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:22Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:22Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:22Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:21Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:21Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:21Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:21Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:19Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:19Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:19Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:19Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:18Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:18Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:18Z (before threshold 2025-05-17T10:29:55.812269300Z)
+May 17, 2025 3:59:57 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Subject not matched yet. Retrying... (1/10)
+May 17, 2025 4:00:00 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Query Received From LDTM134-C134
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Query Received From LDTM134-C134
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-05-17T10:32:24.000Z
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → support@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff3@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff18@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff42@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff505@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teamleadtest@gmail.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20165443@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20170923@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20171420@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee3821@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2952@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7002@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2490@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee1079@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7054@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee969@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8504@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5262@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5677@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2398@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4033@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8710@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5533@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5321@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6487@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee3279@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5986@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8886@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5118@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee3536@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8340@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9137@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2919@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6188@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee102@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2801@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee3781@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+May 17, 2025 4:00:11 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+Hi,
+You have received a message from&nbsp;LDTM134-C134,&nbsp;regarding&nbsp;David  Test_0430141744
+Message: 
+Test: Could you please provide the detailed timeline of your medical treatments and symptoms related to your condition?
+ To view messages
+
+    
+        Click Here
+May 17, 2025 4:00:12 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 17, 2025 4:00:31 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-17.log
+May 17, 2025 4:00:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 17, 2025 4:00:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 17, 2025 4:00:34 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 17, 2025 4:00:59 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Detected Status: Open
+May 17, 2025 4:00:59 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Searching for case with Status: Work in Progress, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:00:59 PM stepdefinition.EstimateandTask getVisibleRows
+INFO: Total rows found: 11
+May 17, 2025 4:00:59 PM stepdefinition.EstimateandTask processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [786a300344dbc984102aa9587a9c9bd6, findChildElement {value=.//td[@data-index='10'], id=f.F3B38C37B9B39A1E0FEBEBC0C16E8B11.d.276955A2E78CE41BC1D2088FA5C30032.e.303, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64866/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 786a300344dbc984102aa9587a9c9bd6
+May 17, 2025 4:00:59 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 17, 2025 4:01:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:01:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:00 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:01:01 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Case not found on current page. Attempting pagination...
+May 17, 2025 4:01:01 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Clicked 'Rows per page' dropdown.
+May 17, 2025 4:01:02 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Set maximum rows per page.
+May 17, 2025 4:01:03 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Rows refreshed after pagination.
+May 17, 2025 4:01:07 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Detected Status after pagination: Open
+May 17, 2025 4:01:07 PM stepdefinition.EstimateandTask getVisibleRows
+INFO: Total rows found: 101
+May 17, 2025 4:01:07 PM stepdefinition.EstimateandTask processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [786a300344dbc984102aa9587a9c9bd6, findChildElement {value=.//td[@data-index='10'], id=f.F3B38C37B9B39A1E0FEBEBC0C16E8B11.d.276955A2E78CE41BC1D2088FA5C30032.e.303, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64866/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 786a300344dbc984102aa9587a9c9bd6
+May 17, 2025 4:01:07 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 17, 2025 4:01:07 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:07 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:07 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:01:07 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:01:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:01:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:01:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:01:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:01:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:01:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:01:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Work in Progress, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:01:10 PM stepdefinition.EstimateandTask clickThreeDotAction
+INFO: Clicked the three-dot action button for case with Status: Work in Progress, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:01:13 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Total three-dot buttons found: 6
+May 17, 2025 4:01:14 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 1
+May 17, 2025 4:01:17 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 4:01:19 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 2
+May 17, 2025 4:01:22 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 4:01:24 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 3
+May 17, 2025 4:01:27 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 4:01:29 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 4
+May 17, 2025 4:01:33 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 4:01:36 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 5
+May 17, 2025 4:01:39 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 4:01:42 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Clicked Three-Dot button at position: 6
+May 17, 2025 4:01:44 PM stepdefinition.EstimateandTask performAddEstimateTimeActions
+INFO: Estimate time submitted successfully.
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminEntersTheInternalEstimateHoursForAllTheTasks
+INFO: Completed processing all 6 tasks.
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Total rows found for estimate hours: 6
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 4:01:47 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 4:01:48 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 4:01:48 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 4:01:48 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Reading time value: 555500
+May 17, 2025 4:01:48 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted time value: 55:55:00
+May 17, 2025 4:01:48 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Total calculated estimate time: 335:30:00
+May 17, 2025 4:01:48 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Displayed total estimate time digits: 3353000
+May 17, 2025 4:01:48 PM stepdefinition.EstimateandTask theAdminVerifiesWhetherTheTotalEstimateHoursIsCalculatedCorrectly
+INFO: Formatted displayed total time: 335:30:00
+May 17, 2025 4:01:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 17, 2025 4:01:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 17, 2025 4:01:49 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 17, 2025 4:02:16 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Detected Status: Open
+May 17, 2025 4:02:16 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Searching for case with Status: Open, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:02:17 PM stepdefinition.EstimateandTask getVisibleRows
+INFO: Total rows found: 11
+May 17, 2025 4:02:17 PM stepdefinition.EstimateandTask processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e8db402626a61d256abf37147c95774, findChildElement {value=.//td[@data-index='10'], id=f.76F1CA67729740D3566028FDEFDB85EB.d.33BD086DC2E56EBC79722FFAD9130E66.e.326, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65038/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e8db402626a61d256abf37147c95774
+May 17, 2025 4:02:17 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 17, 2025 4:02:17 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:17 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:17 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:02:17 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:18 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:18 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:18 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:18 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:18 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:02:18 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Case not found on current page. Attempting pagination...
+May 17, 2025 4:02:18 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Clicked 'Rows per page' dropdown.
+May 17, 2025 4:02:19 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Set maximum rows per page.
+May 17, 2025 4:02:22 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Rows refreshed after pagination.
+May 17, 2025 4:02:25 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Detected Status after pagination: Open
+May 17, 2025 4:02:25 PM stepdefinition.EstimateandTask getVisibleRows
+INFO: Total rows found: 101
+May 17, 2025 4:02:25 PM stepdefinition.EstimateandTask processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e8db402626a61d256abf37147c95774, findChildElement {value=.//td[@data-index='10'], id=f.76F1CA67729740D3566028FDEFDB85EB.d.33BD086DC2E56EBC79722FFAD9130E66.e.326, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65038/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e8db402626a61d256abf37147c95774
+May 17, 2025 4:02:25 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 17, 2025 4:02:25 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:26 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:26 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:02:26 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:26 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:26 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:27 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:27 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:27 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:02:27 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:02:27 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:02:28 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:02:28 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:28 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:28 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:02:28 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Work in Progress, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:02:29 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:29 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 17, 2025 4:02:29 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:29 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Karl
+May 17, 2025 4:02:29 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:29 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:29 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:30 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 17, 2025 4:02:30 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Karl
+May 17, 2025 4:02:30 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 17, 2025 4:02:30 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:31 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:31 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:31 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:31 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:31 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:02:31 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 17, 2025 4:02:32 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:32 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:32 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:32 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Corrine
+May 17, 2025 4:02:32 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 17, 2025 4:02:33 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 17, 2025 4:02:33 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 17, 2025 4:02:33 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Machelle
+May 17, 2025 4:02:33 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:02:33 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:34 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:02:34 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:02:34 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:02:34 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:02:34 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:02:35 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:35 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:35 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Resume Request, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:35 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:35 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:35 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:35 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:36 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:36 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:36 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:02:36 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:02:37 PM stepdefinition.EstimateandTask clickThreeDotAction
+INFO: Clicked the three-dot action button for case with Status: Open, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:02:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 17, 2025 4:02:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 17, 2025 4:02:41 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Detected Status: Open
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Searching for case with Status: Delivered, Priority: Standard
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList getVisibleRows
+INFO: Total rows found: 11
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb27b90328061155af97bfffaeb1251f, findChildElement {value=.//td[@data-index='6'], id=f.3BFC072B8A71685AACD892AADC6DB6BD.d.5E0F467F531197D3D1F7EE5629294946.e.253, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65120}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65120/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb27b90328061155af97bfffaeb1251f
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:03:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:03:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:03:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:09 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Case not found on current page. Attempting pagination...
+May 17, 2025 4:03:09 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Clicked 'Rows per page' dropdown.
+May 17, 2025 4:03:09 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Set maximum rows per page.
+May 17, 2025 4:03:09 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Rows refreshed after pagination.
+May 17, 2025 4:03:11 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Detected Status after pagination: Open
+May 17, 2025 4:03:11 PM stepdefinition.ClientCaseList getVisibleRows
+INFO: Total rows found: 25
+May 17, 2025 4:03:11 PM stepdefinition.ClientCaseList processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb27b90328061155af97bfffaeb1251f, findChildElement {value=.//td[@data-index='6'], id=f.3BFC072B8A71685AACD892AADC6DB6BD.d.5E0F467F531197D3D1F7EE5629294946.e.253, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65120}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65120/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb27b90328061155af97bfffaeb1251f
+May 17, 2025 4:03:11 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:11 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:12 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:13 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:13 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:03:13 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Expedited
+May 17, 2025 4:03:13 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 4:03:13 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard
+May 17, 2025 4:03:13 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Resume Request, Priority: Standard
+May 17, 2025 4:03:13 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard
+May 17, 2025 4:03:13 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard
+May 17, 2025 4:03:14 PM stepdefinition.ClientCaseList clickThreeDotAction
+INFO: Clicked the three-dot action button for case with Status: Delivered, Priority: Standard
+May 17, 2025 4:03:26 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T10:32:24Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T10:25:40Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T10:23:52Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T03:07:30Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T03:06:55Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T03:06:30Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:24Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:23Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:23Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:23Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:23Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:22Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:22Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:22Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:22Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:21Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:21Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:21Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:21Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:20Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:19Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:19Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:19Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:19Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:18Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI isRecentEmail
+INFO: Skipping email sent at 2025-05-17T01:00:18Z (before threshold 2025-05-17T10:33:36.168921200Z)
+May 17, 2025 4:03:38 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Subject not matched yet. Retrying... (1/10)
+May 17, 2025 4:03:41 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 17, 2025 4:03:51 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Query Received From LDTM134-C134
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Query Received From LDTM134-C134
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-05-17T10:36:04.000Z
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → support@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff3@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff18@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff42@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff505@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teamleadtest@gmail.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20165443@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20170923@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20171420@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee3821@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2952@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7002@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2490@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee1079@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7054@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee969@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8504@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5262@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5677@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2398@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4033@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8710@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5533@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5321@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6487@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee3279@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5986@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8886@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5118@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee3536@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8340@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9137@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2919@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6188@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee102@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee2801@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee3781@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+May 17, 2025 4:03:52 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+Hi,
+You have received a message from&nbsp;LDTM134-C134,&nbsp;regarding&nbsp;David  Test_0430141744
+Message: 
+Test: Could you please provide the detailed timeline of your medical treatments and symptoms related to your condition?
+ To view messages
+
+    
+        Click Here
+May 17, 2025 4:03:53 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+May 17, 2025 4:14:24 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-05-17.log
+May 17, 2025 4:14:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 17, 2025 4:14:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 17, 2025 4:14:27 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 17, 2025 4:15:00 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Detected Status: Open
+May 17, 2025 4:15:00 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Searching for case with Status: Open, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:15:00 PM stepdefinition.EstimateandTask getVisibleRows
+INFO: Total rows found: 11
+May 17, 2025 4:15:00 PM stepdefinition.EstimateandTask processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab982e815ba4a66028d290ef551b4126, findChildElement {id=f.4BD9666671E5FA9ECF03B8E18757D36F.d.881D89EFD24D19F4340EDE612641CA75.e.310, value=.//td[@data-index='10'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab982e815ba4a66028d290ef551b4126
+May 17, 2025 4:15:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 17, 2025 4:15:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:15:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:01 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:02 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:02 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:02 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:02 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:15:02 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Case not found on current page. Attempting pagination...
+May 17, 2025 4:15:02 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Clicked 'Rows per page' dropdown.
+May 17, 2025 4:15:02 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Set maximum rows per page.
+May 17, 2025 4:15:03 PM stepdefinition.EstimateandTask attemptPagination
+INFO: Rows refreshed after pagination.
+May 17, 2025 4:15:07 PM stepdefinition.EstimateandTask theAdminViewsACaseOfAClientWithStatusAndPriority
+INFO: Detected Status after pagination: Open
+May 17, 2025 4:15:07 PM stepdefinition.EstimateandTask getVisibleRows
+INFO: Total rows found: 101
+May 17, 2025 4:15:07 PM stepdefinition.EstimateandTask processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='10']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab982e815ba4a66028d290ef551b4126, findChildElement {id=f.4BD9666671E5FA9ECF03B8E18757D36F.d.881D89EFD24D19F4340EDE612641CA75.e.310, value=.//td[@data-index='10'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab982e815ba4a66028d290ef551b4126
+May 17, 2025 4:15:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test60 client
+May 17, 2025 4:15:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:15:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:08 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Cancel Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:15:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kraig
+May 17, 2025 4:15:09 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:15:10 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:15:10 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:10 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:10 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: James
+May 17, 2025 4:15:10 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Work in Progress, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:15:10 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:10 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 17, 2025 4:15:11 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:11 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Karl
+May 17, 2025 4:15:11 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:11 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:11 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:11 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 17, 2025 4:15:12 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Karl
+May 17, 2025 4:15:12 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 17, 2025 4:15:12 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:12 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:12 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:12 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:12 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Kasey
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Karl
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Completed, Priority: Standard, Client Name: Corrine
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 17, 2025 4:15:13 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Corrine
+May 17, 2025 4:15:14 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: Machelle
+May 17, 2025 4:15:14 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:15:14 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:14 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:15:14 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:15:14 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:15:14 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:15:14 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Expedited, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Resume Request, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:15 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Estimate Requested, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:16 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Assigned, Priority: Standard, Client Name: test160 client
+May 17, 2025 4:15:16 PM stepdefinition.EstimateandTask processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:15:16 PM stepdefinition.EstimateandTask clickThreeDotAction
+INFO: Clicked the three-dot action button for case with Status: Open, Priority: Standard, Client Name: Benish Test
+May 17, 2025 4:15:25 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 17, 2025 4:15:37 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Query Received
+May 17, 2025 4:15:38 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Query Received
+May 17, 2025 4:15:38 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-05-17T10:47:50.000Z
+May 17, 2025 4:15:38 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+May 17, 2025 4:15:38 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+May 17, 2025 4:15:38 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+May 17, 2025 4:15:38 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testclientbenish@gmail.com
+May 17, 2025 4:15:38 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+Hi Benish Test&nbsp;
+You have received a message&nbsp;regarding&nbsp;Michael  Test_0430100206
+Message: 
+Test: Could you please provide the detailed timeline of your medical treatments and symptoms related to your condition?
+ To view messages
+
+    
+        Click Here
+May 17, 2025 4:15:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 17, 2025 4:15:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 17, 2025 4:15:40 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+May 17, 2025 4:16:03 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Detected Status: Open
+May 17, 2025 4:16:03 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Searching for case with Status: Delivered, Priority: Standard
+May 17, 2025 4:16:03 PM stepdefinition.ClientCaseList getVisibleRows
+INFO: Total rows found: 11
+May 17, 2025 4:16:04 PM stepdefinition.ClientCaseList processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bf4314bfef481438fa28c48ff4fcdd4, findChildElement {id=f.134159BD6296C8D2A9A65DA17DAE5678.d.8778F7B80AD4DD9FE4FD75A7F44CB002.e.247, value=.//td[@data-index='6'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65438/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bf4314bfef481438fa28c48ff4fcdd4
+May 17, 2025 4:16:04 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:04 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:04 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:16:04 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 4:16:04 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 17, 2025 4:16:04 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:16:05 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:16:05 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:05 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:16:05 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:05 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Case not found on current page. Attempting pagination...
+May 17, 2025 4:16:05 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Clicked 'Rows per page' dropdown.
+May 17, 2025 4:16:06 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Set maximum rows per page.
+May 17, 2025 4:16:06 PM stepdefinition.ClientCaseList attemptPagination
+INFO: Rows refreshed after pagination.
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList theClientClicksOnTheThreeDotAction
+INFO: Detected Status after pagination: Open
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList getVisibleRows
+INFO: Total rows found: 25
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+WARNING: Error while processing row: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-index='6']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bf4314bfef481438fa28c48ff4fcdd4, findChildElement {id=f.134159BD6296C8D2A9A65DA17DAE5678.d.8778F7B80AD4DD9FE4FD75A7F44CB002.e.247, value=.//td[@data-index='6'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65438/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bf4314bfef481438fa28c48ff4fcdd4
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Awaiting Delivery, Priority: Standard
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:08 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Standard
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Open, Priority: Expedited
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Canceled, Priority: Expedited
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Estimation in Process, Priority: Standard
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Hold Request, Priority: Standard
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Resume Request, Priority: Standard
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: On-hold, Priority: Standard
+May 17, 2025 4:16:09 PM stepdefinition.ClientCaseList processRowsForViewing
+INFO: Checking row - Status: Delivered, Priority: Standard
+May 17, 2025 4:16:10 PM stepdefinition.ClientCaseList clickThreeDotAction
+INFO: Clicked the three-dot action button for case with Status: Delivered, Priority: Standard
+May 17, 2025 4:16:25 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+May 17, 2025 4:16:36 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Query Received
+May 17, 2025 4:16:36 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Query Received
+May 17, 2025 4:16:36 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-05-17T10:47:50.000Z
+May 17, 2025 4:16:36 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+May 17, 2025 4:16:36 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+May 17, 2025 4:16:36 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+May 17, 2025 4:16:36 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testclientbenish@gmail.com
+May 17, 2025 4:16:37 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+Hi Benish Test&nbsp;
+You have received a message&nbsp;regarding&nbsp;Michael  Test_0430100206
+Message: 
+Test: Could you please provide the detailed timeline of your medical treatments and symptoms related to your condition?
+ To view messages
+
+    
+        Click Here
+May 17, 2025 4:16:38 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
