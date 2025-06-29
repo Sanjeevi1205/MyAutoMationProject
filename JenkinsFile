@@ -1,0 +1,97 @@
+pipeline {
+    agent {
+        docker {
+            image 'maven:3.9.6-eclipse-temurin-17'
+            args '-v $HOME/.m2:/root/.m2'
+        }
+    }
+
+    parameters {
+        choice(
+            name: 'ENV_URL',
+            choices: [
+                'https://testing-accounts.lezdotechmed.com',
+                'https://dev-accounts.lezdotechmed.com',
+                'https://staging-accounts.lezdotechmed.com'
+            ],
+            description: 'Select the Environment URL'
+        )
+
+        choice(
+            name: 'CUCUMBER_TAGS',
+            choices: [
+                '@Regression', '@Signup', '@LoginClient', '@OrderIntake', '@OrderIntakeCustomLink',
+                '@Casecompletion', '@crm', '@ClientCase', '@AdminEstimate', '@AdminDrive',
+                '@ClientMessage', '@ClientDrive', '@AdminMessage', '@AdminMyAccount', '@AdminPartner',
+                '@AdminReport', '@AdminResource', '@AdminSettings', '@CaseListAction',
+                '@ClientContract', '@ClientDashboard', '@ClientMyAccount', '@ClientReport',
+                '@RetainerInvoice', '@ClientSettings', '@Teams', '@Forgotpasswd',
+                '@RetrievalOnline', '@GenerateInvoice'
+            ],
+            description: 'Select the Cucumber tag to run'
+        )
+    }
+
+    environment {
+        LOG_DATE = new Date().format("yyyy-MM-dd")
+    }
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                retry(2) {
+                    sh """
+                        mvn clean test \\
+                            -Dtest=runner.RunnerClass2 \\
+                            -Dcucumber.filter.tags=${params.CUCUMBER_TAGS} \\
+                            -Denv.url=${params.ENV_URL} \\
+                            -Dheadless=true \\
+                            -Dmaven.test.failure.ignore=true
+                    """
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                def timeoutMinutes = 2
+                def intervalSeconds = 10
+                def elapsed = 0
+
+                def pdfPath = "test-output/PdfReport/ExtentPdf.pdf"
+                def logPath = "logs/automation-${env.LOG_DATE}.log.0"
+
+                while (!fileExists(pdfPath) || !fileExists(logPath)) {
+                    if (elapsed >= timeoutMinutes * 60) {
+                        echo "Warning: PDF or log file not found after waiting ${timeoutMinutes} minutes."
+                        break
+                    }
+                    echo "Waiting for PDF and log file... (${elapsed}s elapsed)"
+                    sleep time: intervalSeconds, unit: 'SECONDS'
+                    elapsed += intervalSeconds
+                }
+
+                echo "Archiving reports if available..."
+            }
+
+            archiveArtifacts artifacts: "test-output/PdfReport/ExtentPdf.pdf, logs/automation-${env.LOG_DATE}.log.0", fingerprint: true
+            archiveArtifacts artifacts: '**/target/surefire-reports/*.txt', allowEmptyArchive: true
+            archiveArtifacts artifacts: '**/screenshots/**/*.png', allowEmptyArchive: true
+            junit '**/target/surefire-reports/*.xml'
+        }
+
+        failure {
+            mail to: 'sanjeevi.p@lezdotechmed.com',
+                 subject: "Build Failed: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+                 body: "Check Jenkins for more details.\n\nBuild URL: ${env.BUILD_URL}"
+        }
+    }
+}
