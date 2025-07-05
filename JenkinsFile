@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven:3.9.6-eclipse-temurin-17'
-            args '-v $HOME/.m2:/root/.m2'
-        }
-    }
+    agent any
 
     parameters {
         choice(
@@ -20,19 +15,41 @@ pipeline {
         choice(
             name: 'CUCUMBER_TAGS',
             choices: [
-                '@Regression', '@Signup', '@LoginClient', '@OrderIntake', '@OrderIntakeCustomLink',
-                '@Casecompletion', '@crm', '@ClientCase', '@AdminEstimate', '@AdminDrive',
-                '@ClientMessage', '@ClientDrive', '@AdminMessage', '@AdminMyAccount', '@AdminPartner',
-                '@AdminReport', '@AdminResource', '@AdminSettings', '@CaseListAction',
-                '@ClientContract', '@ClientDashboard', '@ClientMyAccount', '@ClientReport',
-                '@RetainerInvoice', '@ClientSettings', '@Teams', '@Forgotpasswd',
-                '@RetrievalOnline', '@GenerateInvoice'
+                '@Regression',
+                '@Signup',
+                '@LoginClient',
+                '@OrderIntake',
+                '@OrderIntakeCustomLink',
+                '@Casecompletion',
+                '@crm',
+                '@ClientCase',
+                '@AdminEstimate',
+                '@AdminDrive',
+                '@ClientMessage',
+                '@ClientDrive',
+                '@AdminMessage',
+                '@AdminMyAccount',
+                '@AdminPartner',
+                '@AdminReport',
+                '@AdminResource',
+                '@AdminSettings',
+                '@CaseListAction',
+                '@ClientContract',
+                '@ClientDashboard',
+                '@ClientMyAccount',
+                '@ClientReport',
+                '@RetainerInvoice',
+                '@ClientSettings',
+                '@Teams',
+                '@Forgotpasswd',
+                '@RetrievalOnline',
+                '@GenerateInvoice'
             ],
-            description: 'Select the Cucumber tag to run'
+        description: 'Select the Cucumber tag to run'
         )
     }
-
     environment {
+        MAVEN_HOME = tool 'Maven'
         LOG_DATE = new Date().format("yyyy-MM-dd")
     }
 
@@ -45,15 +62,15 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                retry(2) {
-                    sh """
-                        mvn clean test \\
-                            -Dtest=runner.RunnerClass2 \\
-                            -Dcucumber.filter.tags=${params.CUCUMBER_TAGS} \\
-                            -Denv.url=${params.ENV_URL} \\
-                            -Dheadless=true \\
-                            -Dmaven.test.failure.ignore=true
-                    """
+                withEnv(["PATH+MAVEN=${env.MAVEN_HOME}/bin"]) {
+                   sh """
+                       mvn clean test \
+                           -Dtest=runner.RunnerClass2 \
+                           -Dcucumber.filter.tags=${params.CUCUMBER_TAGS} \
+                           -Denv.url=${params.ENV_URL} \
+                           -Dheadless=true \
+                           -Dmaven.test.failure.ignore=true
+                   """
                 }
             }
         }
@@ -83,15 +100,14 @@ pipeline {
             }
 
             archiveArtifacts artifacts: "test-output/PdfReport/ExtentPdf.pdf, logs/automation-${env.LOG_DATE}.log.0", fingerprint: true
-            archiveArtifacts artifacts: '**/target/surefire-reports/*.txt', allowEmptyArchive: true
-            archiveArtifacts artifacts: '**/screenshots/**/*.png', allowEmptyArchive: true
             junit '**/target/surefire-reports/*.xml'
+            archiveArtifacts artifacts: '**/target/surefire-reports/*.txt', allowEmptyArchive: true
         }
 
         failure {
             mail to: 'sanjeevi.p@lezdotechmed.com',
                  subject: "Build Failed: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
-                 body: "Check Jenkins for more details.\n\nBuild URL: ${env.BUILD_URL}"
+                 body: "Check Jenkins for more details."
         }
     }
 }
