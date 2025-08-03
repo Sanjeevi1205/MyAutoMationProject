@@ -1,58 +1,138 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'maven:3.8.7-eclipse-temurin-17'
+            args '-v /dev/shm:/dev/shm'
+        }
+    }
+
+    options {
+        timestamps()
+    }
 
     parameters {
         choice(
             name: 'ENV_URL',
             choices: [
-                'https://testing-accounts.lezdotechmed.com',
                 'https://dev-accounts.lezdotechmed.com',
                 'https://staging-accounts.lezdotechmed.com'
             ],
             description: 'Select the Environment URL'
         )
-
         choice(
             name: 'CUCUMBER_TAGS',
             choices: [
-                '@Regression',
-                '@Signup',
-                '@LoginClient',
-                '@OrderIntake',
-                '@OrderIntakeCustomLink',
-                '@Casecompletion',
-                '@crm',
-                '@ClientCase',
-                '@AdminEstimate',
-                '@AdminDrive',
-                '@ClientMessage',
-                '@ClientDrive',
-                '@AdminMessage',
-                '@AdminMyAccount',
-                '@AdminPartner',
-                '@AdminReport',
-                '@AdminResource',
-                '@AdminSettings',
-                '@CaseListAction',
-                '@ClientContract',
-                '@ClientDashboard',
-                '@ClientMyAccount',
-                '@ClientReport',
-                '@RetainerInvoice',
-                '@ClientSettings',
-                '@Teams',
-                '@Forgotpasswd',
-                '@RetrievalOnline',
-                '@GenerateInvoice'
+                '@AccountUIRegression', '@ClientUIRegression', '@AdminUIRegression', '@ReviewCase',
+                '@Signup', '@LoginClient', '@OrderIntake', '@OrderIntakeCustomLink', '@Casecompletion',
+                '@Crm', '@ClientCase', '@AdminEstimate', '@AdminDrive', '@ClientMessage',
+                '@ClientDrive', '@AdminMessage', '@AdminMyAccount', '@AdminPartner', '@AdminReport',
+                '@AdminResource', '@AdminSettings', '@CaseListAction', '@ClientContract', '@ClientDashboard',
+                '@ClientMyAccount', '@ClientReport', '@RetainerInvoice', '@ClientSettings', '@Teams',
+                '@TeamLead', '@Forgotpasswd', '@SecondaryEmail', '@RetrievalOnline', '@Test', '@GenerateInvoice'
             ],
             description: 'Select the Cucumber tag to run'
         )
     }
 
     environment {
-        MAVEN_HOME = tool 'Maven'
         LOG_DATE = new Date().format("yyyy-MM-dd")
     }
 
     stages {
-        sta
+        stage('Checkout Code') {
+            steps {
+                echo 'Cleaning previous workspace...'
+                deleteDir()
+                echo 'Checking out latest code...'
+                checkout scm
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh """
+                    mvn clean test \
+                        -Dtest=runner.RunnerClass2 \
+                        -Dcucumber.filter.tags=${params.CUCUMBER_TAGS} \
+                        -Denv.url=${params.ENV_URL} \
+                        -Dheadless=true \
+                        -Dmaven.test.failure.ignore=true
+                """
+            }
+        }
+
+        stage('Debug Reports') {
+            steps {
+                echo "Listing surefire-reports directory:"
+                sh 'ls -l target/surefire-reports/ || echo "No surefire reports found"'
+
+                echo "Listing PDF report directory:"
+                sh 'ls -l test-output/PdfReport/ || echo "No PDF reports found"'
+
+                echo "Listing logs directory:"
+                sh 'ls -l logs/ || echo "No logs found"'
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                def timeoutMinutes = 2
+                def intervalSeconds = 10
+                def elapsed = 0
+
+                def pdfPath = "test-output/PdfReport/ExtentPdf.pdf"
+                def logPath = "logs/automation-${env.LOG_DATE}.log.0"
+
+                while (!fileExists(pdfPath) || !fileExists(logPath)) {
+                    if (elapsed >= timeoutMinutes * 60) {
+                        echo "Warning: PDF or log file not found after waiting ${timeoutMinutes} minutes."
+                        break
+                    }
+                    echo "Waiting for PDF and log file... (${elapsed}s elapsed)"
+                    sleep time: intervalSeconds, unit: 'SECONDS'
+                    elapsed += intervalSeconds
+                }
+
+                echo "Archiving reports if available..."
+                archiveArtifacts artifacts: "test-output/PdfReport/ExtentPdf.pdf, logs/automation-${env.LOG_DATE}.log.0", fingerprint: true
+                junit '**/target/surefire-reports/*.xml'
+                archiveArtifacts artifacts: '**/target/surefire-reports/*.txt', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'test-output/SparkReport/**', allowEmptyArchive: true
+            }
+        }
+
+        failure {
+            emailext(
+                to: 'sanjeeviponnusamy051@gmail.com',
+                subject: "Build Failed: ${env.JOB_NAME} [#${env.BUILD_NUMBER}]",
+                body: """<p><b>Build failed on Jenkins:</b></p>
+                         <ul>
+                           <li>Job: ${env.JOB_NAME}</li>
+                           <li>Build: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></li>
+                         </ul>
+                         <p>Please check the console output and attached reports.</p>""",
+                mimeType: 'text/html'
+            )
+        }
+
+        unstable {
+            emailext(
+                to: 'sanjeeviponnusamy051@gmail.com',
+                subject: "Build Unstable: ${env.JOB_NAME} [#${env.BUILD_NUMBER}]",
+                body: """<p><b>Build was unstable:</b></p>
+                         <ul>
+                           <li>Job: ${env.JOB_NAME}</li>
+                           <li>Build: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></li>
+                         </ul>
+                         <p>Please review the test results.</p>""",
+                mimeType: 'text/html'
+            )
+        }
+
+        success {
+            echo "Build completed successfully."
+        }
+    }
+}
